@@ -1,0 +1,141 @@
+/* TABLE DES STYLES */
+/*                  */
+/*  BODY            */
+/*  NAV (li ul ...) */
+/*  HEADER          */
+/*  MAIN            */
+/*                  */
+/*  FORM            */
+/*  FOOTER          */
+
+
+body {
+    margin: 0;
+    background-color: #F6F6F6;
+    font-family: sans-serif
+}
+
+nav {
+    background-color: #359E7B;
+    padding: 15px;
+
+}
+
+nav li {
+    display: inline;
+}
+
+ul {
+    width: 1150px;
+    text-align: right;
+    padding: 15px;
+    margin: auto;
+}
+
+li a {
+    color: #F6F6F6;
+    padding: 15px;
+    display: inline;
+}
+
+header {
+    max-width: 1150px;
+    margin: auto;
+}
+
+main {
+    max-width: 1150px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #359E7B;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #006083;
+}
+
+h3 {
+    color: #006083;
+}
+
+.p {
+    color: grey;
+    font-weight: bold;
+}
+
+section a {
+    display: block;
+    justify-content: center;
+    width: fit-content;
+    color: #359E7B;
+    margin-left: auto;
+}
+
+.moreandmore {
+    background-color: #359E7B;
+    color: #FFFFFF;
+    display: block;
+    width: 250px;
+    padding: 15px;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 40px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+form {
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+input,
+textarea {
+    border: none;
+    
+    border-bottom: 2px solid #359E7B;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    height: 300px;
+    border: 2px;
+    border-color: 2px solid #359E7B;
+}
+
+.envoi {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #359E7B;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
